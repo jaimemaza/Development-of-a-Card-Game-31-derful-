@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> 31-derful Online </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+  <h1 class="texto-borde">31-DERFUL</h1>
+  <table id="GameBoard" class="animate__animated animate__bounce">
+    <tr>
+      <td><img id="img0" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val0"></div></td>
+      <td><img id="img1" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val1"></div></td>
+      <td><img id="img2" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val2"></div></td>
+      <td><img id="img3" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val3"></div></td>
+      <td><img id="img4" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val4"></div></td>
+      <th>Total Score:<span id="verticalScore1">____</span></th>
+    </tr>
+
+    <tr>
+      <td><img id="img5" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val5"></div></td>
+      <td><img id="img6" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val6"></div></td>
+      <td><img id="img7" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val7"></div></td>
+      <td><img id="img8" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val8"></div></td>
+      <td><img id="img9" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val9"></div></td>
+      <th>Total Score:<span id="verticalScore2">____</span></th>
+    </tr>
+
+    <tr>
+      <td><img id="img10" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val10"></div></td>
+      <td><img id="img11" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val11"></div></td>
+      <td><img id="img12" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val12"></div></td>
+      <td><img id="img13" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val13"></div></td>
+      <td><img id="img14" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val14"></div></td>
+      <th>Total Score:<span id="verticalScore3">____</span></th>
+    </tr>
+
+    <tr>
+      <td><img id="img15" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val15"></div></td>
+      <td><img id="img16" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val16"></div></td>
+      <td><img id="img17" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val17"></div></td>
+      <td><img id="img18" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val18"></div></td>
+      <td><img id="img19" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val19"></div></td>
+      <th>Total Score:<span id="verticalScore4">____</span></th>
+    </tr>
+
+    <tr>
+      <td><img id="img20" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val20"></div></td>
+      <td><img id="img21" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val21"></div></td>
+      <td><img id="img22" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val22"></div></td>
+      <td><img id="img23" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val23"></div></td>
+      <td><img id="img24" data-hint ="true" src="" width=100 height=100 ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"><div id="val24"></div></td>
+      <th>Total Score:<span id="verticalScore5">____</span></th>
+    </tr>
+
+    <tr>
+      <th class="red">Total Score:<span id="horizontalScore1">____</span></th>
+      <th class="red">Total Score:<span id="horizontalScore2">____</span></th>
+      <th class="red">Total Score:<span id="horizontalScore3">____</span></th>
+      <th class="red">Total Score:<span id="horizontalScore4">____</span></th>
+      <th class="red">Total Score:<span id="horizontalScore5">____</span></th>
+    </tr>
+  </table>
+  <p class="appear"><button id="check" type="button">CLICK FOR HINT</button>              <button id="reset" type="button" >CLICK ME TO RELOAD</button></p>
+</body>
+</html>
